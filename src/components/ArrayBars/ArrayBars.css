@@ -1,0 +1,25 @@
+.ArrayBars{
+    margin: 0 auto;
+    min-height: 520px;
+    min-width: 90%;
+    text-align: center;
+}
+
+.ArrayBars > .block{
+    display: inline-block;
+    border-radius: 2px 2px 0px 0px;
+    margin: 0px 0px 2px 2px;
+    transition: height 0.3s;
+    position: sticky;
+    top: 999999px;
+    
+    /* color: #282c34;
+    display: inline-block;
+     font-size: 10px; 
+    font-weight: bold; 
+    margin: 0 2px;
+    text-align: center;
+    transition-duration: 150ms;
+    transition-property: height;
+    transition-timing-function: ease-in; */
+}
